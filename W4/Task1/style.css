@@ -1,0 +1,36 @@
+
+.product-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-row {
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid rgb(232, 224, 224);
+}
+
+.product-item {
+    width: 20%; 
+    text-align: center;
+    margin: 0.5px; 
+    border: 1.5px solid rgb(226, 217, 217);
+
+}
+
+.image-container {
+
+    width: 300px;
+    height: 300px;
+    /* overflow: hidden; */
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+   
+}
+
+.price {
+    font-weight: bold;
+    color: green;
+}
